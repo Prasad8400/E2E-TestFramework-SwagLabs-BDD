@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="steps.CheckoutCompleteSteps">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="perform_CheckoutComplete"/>
+        </methods>
+      </class> <!-- steps.CheckoutCompleteSteps -->
+      <class name="steps.YourCartSteps">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="perform_Checkout"/>
+        </methods>
+      </class> <!-- steps.YourCartSteps -->
+      <class name="steps.CheckOutOverviewSteps">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="assert_CheckoutOverview"/>
+        </methods>
+      </class> <!-- steps.CheckOutOverviewSteps -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
